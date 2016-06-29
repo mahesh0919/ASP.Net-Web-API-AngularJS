@@ -142,7 +142,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Scripts\AngularJS\angular.route.minified.js" />
     <Content Include="Scripts\AngularJS\angular.ui.router.js" />
     <Content Include="Scripts\AngularJS\angular.minfied.js" />
     <Content Include="Scripts\Custom\MyController.js" />
@@ -163,9 +162,20 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Home\GetPersons.cshtml" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\GetPersonDetails.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\UpdatePersonController.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\AddPersonController.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

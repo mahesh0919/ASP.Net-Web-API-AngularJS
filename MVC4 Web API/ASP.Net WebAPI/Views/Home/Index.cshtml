@@ -1,15 +1,38 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html ng-app="MyModule">
 <head>
-
+    <title>ASP.net Web Api Angular JS</title>
 </head>
 
-<body ng-app="">
-
+<body>
     <div>
-        <input type="text" ng-model="name" />
-        {{name}}
+        <table style="font-family: Arial">
+            <tr>
+                <td colspan="2" class="header">
+                    <h1>
+                        <h1>AngularJS CRUD Operations with MVC5 WebAPI</h1>
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="leftMenu">
+                    <a ui-sref="home">Home</a>
+                    <a ui-sref="getperson">GetPerson</a>
+                    <a ui-sref="updateperson">UpdatePerson</a>
+                    <a ui-sref="addperson">AddPerson</a>
+                    <a ui-sref="deleteperson">DeletePerson</a>
+                </td>
+                <td class="mainContent">
+                    <ui-view></ui-view>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="footer">
+                    <b>Website Footer</b>
+                </td>
+            </tr>
+        </table>
     </div>
-
 </body>
 
 </html>

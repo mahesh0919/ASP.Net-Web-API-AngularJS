@@ -1,1 +1,1 @@
-﻿var app = angular.module("MyModule", []);
+﻿var app = angular.module("MyModule", ["ui.router"]);

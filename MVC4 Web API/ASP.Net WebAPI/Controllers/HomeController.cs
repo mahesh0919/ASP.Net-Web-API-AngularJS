@@ -12,5 +12,25 @@ namespace MVC4_WebAPI.Controllers
         {
             return View();
         }
+        public ActionResult GetPersons()
+        {
+            return View();
+        }
+        public ActionResult GetPersonDetails()
+        {
+            return View();
+        }
+        public ActionResult UpdatePersonController()
+        {
+            return View();
+        }
+        public ActionResult AddPersonController()
+        {
+            return View();
+        }
+        public ActionResult DeletePersonController()
+        {
+            return View();
+        }
     }
 }
