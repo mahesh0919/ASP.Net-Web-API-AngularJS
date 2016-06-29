@@ -142,13 +142,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Scripts\angular-route.min.js" />
-    <Content Include="Scripts\angular-ui-router.js" />
-    <Content Include="Scripts\angular.min.js" />
-    <Content Include="Scripts\MyController.js" />
-    <Content Include="Scripts\MyModule.js" />
-    <Content Include="Scripts\MyRoute.js" />
-    <Content Include="Scripts\MyService.js" />
+    <Content Include="Scripts\AngularJS\angular.route.minified.js" />
+    <Content Include="Scripts\AngularJS\angular.ui.router.js" />
+    <Content Include="Scripts\AngularJS\angular.minfied.js" />
+    <Content Include="Scripts\Custom\MyController.js" />
+    <Content Include="Scripts\Custom\MyModule.js" />
+    <Content Include="Scripts\Custom\MyRoute.js" />
+    <Content Include="Scripts\Custom\MyService.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
