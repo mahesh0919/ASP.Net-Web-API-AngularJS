@@ -20,6 +20,14 @@
         alert('Error Occured !!!'); // Failed
     });
 
+    $scope.Edit = function (person) {
+        alert("This operation under construction");
+    };
+
+    $scope.Delete = function (person) {
+        alert("This operation under construction");
+    };
+
 })
 .controller("GetController", function ($scope) {
     $scope.heading = "Get Person details";
