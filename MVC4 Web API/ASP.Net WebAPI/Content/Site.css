@@ -60,3 +60,20 @@ a{
     border-bottom: 1px dotted #ccc;
     padding: 5px 0;
 }
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    /*cursor property displays hand symbol
+        when hovered over the th element*/
+    cursor: pointer;
+}
