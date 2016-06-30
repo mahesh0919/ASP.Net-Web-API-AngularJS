@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -10,6 +9,33 @@
         {{heading}}
 
         {{message}}
-    </div>
+<br />
+
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Gender</th>
+                    <th>Add / Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in personsData">
+                    <td> <span>{{person.FirstName}}</span></td>
+                    <td> <span>{{person.LastName}}</span></td>
+                    <td> <span>{{person.Address}}</span></td>
+                    <td> <span>{{person.Gender}}</span></td>
+                    <td>
+                        <input type="button" ng-click="Edit(person)" value="Edit" />
+                        <input type="button" ng-click="Delete(person)" value="Delete" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+</div>
 </body>
 </html>
