@@ -36,21 +36,7 @@ app.config(function ($stateProvider) // $locationProvider to remove # in url
                         templateUrl: "Home/DeletePersonController"
                     })
          })
-          .controller("PersonController", function ($scope) {
-              $scope.heading = "List of Persons";
-          })
-          .controller("GetController", function ($scope) {
-              $scope.heading = "Get Person details";
-          })
-          .controller("UpdatePersonController", function ($scope) {
-              $scope.heading = "Update Person details";
-          })
-          .controller("AddPersonController", function ($scope) {
-              $scope.heading = "Add person details";
-          })
-          .controller("DeletePersonController", function ($scope) {
-              $scope.heading = "Delete person details";
-          })
+
 
 
 

@@ -15,7 +15,7 @@ namespace MVC4_WebAPI
             bundles.Add(new ScriptBundle("~/bundles/customJS").Include(
                 "~/Scripts/Custom/MyModule.js",
                 "~/Scripts/Custom/MyRoute.js",
-                "~/Scripts/Custom/MyService.js",
+                "~/Scripts/Custom/MyCustomService.js",
                 "~/Scripts/Custom/MyController.js"
                 ));
 
